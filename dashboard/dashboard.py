@@ -62,8 +62,8 @@ def create_rfm_analysis(data):
     return rfm_analysis
 
 # Mengimport data
-day_df = pd.read_csv('day.csv')
-hour_df = pd.read_csv('hour.csv')
+day_df = pd.read_csv('dashboard/day.csv')
+hour_df = pd.read_csv('dashboard/hour.csv')
 
 # Mengkonversi data type
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
